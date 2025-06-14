@@ -2,11 +2,10 @@
   "name": "playwright-api-test",
   "version": "1.0.0",
   "scripts": {
-    "test": "playwright test"
+    "test": "npx playwright test"
   },
   "devDependencies": {
-    "@playwright/test": "^1.53.0"
+    "@playwright/test": "^1.44.1",
+    "typescript": "^5.4.3"
   }
-  
-  
 }
